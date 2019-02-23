@@ -1,5 +1,9 @@
-sfspetclinic/model/Pet.class
-sfspetclinic/model/Person.class
-sfspetclinic/model/Vet.class
-sfspetclinic/model/PetType.class
-sfspetclinic/model/Owner.class
+com/springframework/sfspetclinic/services/PetService.class
+com/springframework/sfspetclinic/services/PetTypeService.class
+com/springframework/sfspetclinic/model/PetType.class
+com/springframework/sfspetclinic/model/Person.class
+com/springframework/sfspetclinic/model/Vet.class
+com/springframework/sfspetclinic/services/OwnerService.class
+com/springframework/sfspetclinic/model/Pet.class
+com/springframework/sfspetclinic/model/Owner.class
+com/springframework/sfspetclinic/services/VetService.class

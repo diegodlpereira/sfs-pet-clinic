@@ -1,5 +1,9 @@
-/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/sfspetclinic/model/Owner.java
-/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/sfspetclinic/model/Pet.java
-/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/sfspetclinic/model/PetType.java
-/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/sfspetclinic/model/Vet.java
-/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/sfspetclinic/model/Person.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/PetType.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/OwnerService.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/VetService.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/PetTypeService.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/PetService.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/Vet.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/Owner.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/Person.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/Pet.java

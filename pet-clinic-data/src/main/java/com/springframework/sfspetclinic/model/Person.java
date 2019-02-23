@@ -1,4 +1,4 @@
-package sfspetclinic.model;
+package com.springframework.sfspetclinic.model;
 
 public class Person {
 
