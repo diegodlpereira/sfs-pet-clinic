@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class OwnersController {
 
-    private OwnerService ownerService;
+    private final OwnerService ownerService;
 
     public OwnersController(OwnerService ownerService) {
         this.ownerService = ownerService;

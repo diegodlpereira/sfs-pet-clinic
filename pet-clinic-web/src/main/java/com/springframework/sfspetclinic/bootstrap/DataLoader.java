@@ -40,7 +40,7 @@ public class DataLoader implements CommandLineRunner {
         Vet vet1 = new Vet();
         vet1.setId(1L);
         vet1.setFirstName("Laszlo");
-        vet1.setLastName("Szabó");
+        vet1.setLastName("Szabo");
 
         vetService.save(vet1);
 
@@ -48,6 +48,8 @@ public class DataLoader implements CommandLineRunner {
         vet2.setId(2L);
         vet2.setFirstName("Clovis");
         vet2.setLastName("Casoy");
+
+        vetService.save(vet2);
 
         System.out.println("Vets added..");
 
