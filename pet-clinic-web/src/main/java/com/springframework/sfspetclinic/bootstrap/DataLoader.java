@@ -1,26 +1,23 @@
 package com.springframework.sfspetclinic.bootstrap;
 
 import com.springframework.sfspetclinic.model.Owner;
-import com.springframework.sfspetclinic.model.Pet;
+import com.springframework.sfspetclinic.model.Vet;
 import com.springframework.sfspetclinic.services.OwnerService;
-import com.springframework.sfspetclinic.services.PetService;
-import com.springframework.sfspetclinic.services.map.OwnerServiceMap;
-import com.springframework.sfspetclinic.services.map.PetServiceMap;
+import com.springframework.sfspetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
 public class DataLoader implements CommandLineRunner {
 
-
     private final OwnerService ownerService;
-    private final PetService petService;
+    private final VetService vetService;
 
-    public DataLoader(){
-        ownerService = new OwnerServiceMap();
-        petService = new PetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
-
+    
     @Override
     public void run(String... args) throws Exception {
 
@@ -40,18 +37,19 @@ public class DataLoader implements CommandLineRunner {
 
         System.out.println("Owners added..");
 
-        Pet pet1 = new Pet();
-        pet1.setId(1L);
-        pet1.setOwner(owner1);
+        Vet vet1 = new Vet();
+        vet1.setId(1L);
+        vet1.setFirstName("Laszlo");
+        vet1.setLastName("Szabó");
 
-        petService.save(pet1);
+        vetService.save(vet1);
 
-        Pet pet2 = new Pet();
-        pet2.setId(1L);
-        pet2.setOwner(owner2);
-        petService.save(pet2);
+        Vet vet2 = new Vet();
+        vet2.setId(2L);
+        vet2.setFirstName("Clovis");
+        vet2.setLastName("Casoy");
 
-        System.out.println("Pets added..");
+        System.out.println("Vets added..");
 
     }
 }
