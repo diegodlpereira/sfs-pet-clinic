@@ -1,1 +1,5 @@
 /home/diego/dev/sfs-pet-clinic/pet-clinic-web/src/main/java/com/springframework/sfspetclinic/SfsPetClinicApplication.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-web/src/main/java/com/springframework/sfspetclinic/controller/OwnersController.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-web/src/main/java/com/springframework/sfspetclinic/bootstrap/DataLoader.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-web/src/main/java/com/springframework/sfspetclinic/controller/VetsController.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-web/src/main/java/com/springframework/sfspetclinic/controller/IndexController.java
