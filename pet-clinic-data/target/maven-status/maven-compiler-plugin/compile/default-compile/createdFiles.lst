@@ -4,10 +4,13 @@ com/springframework/sfspetclinic/services/PetTypeService.class
 com/springframework/sfspetclinic/model/PetType.class
 com/springframework/sfspetclinic/model/Person.class
 com/springframework/sfspetclinic/model/Vet.class
+com/springframework/sfspetclinic/model/Visit.class
 com/springframework/sfspetclinic/model/Pet.class
 com/springframework/sfspetclinic/model/Owner.class
 com/springframework/sfspetclinic/services/VetService.class
 com/springframework/sfspetclinic/services/CrudService.class
+com/springframework/sfspetclinic/model/Specialty.class
+com/springframework/sfspetclinic/services/map/PetTypeServiceMap.class
 com/springframework/sfspetclinic/services/map/VetServiceMap.class
 com/springframework/sfspetclinic/services/map/AbstractMapService.class
 com/springframework/sfspetclinic/services/OwnerService.class
