@@ -4,6 +4,7 @@
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/BaseEntity.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/springdatajpa/OwnerSDJpaService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/map/VetServiceMap.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/VisitService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/Vet.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/springdatajpa/PetTypeSDJpaService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/map/OwnerServiceMap.java
@@ -13,6 +14,7 @@
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/SpecialtiesService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/OwnerService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/springdatajpa/SpecialtySDJpaService.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/map/VisitServiceMap.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/map/AbstractMapService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/map/SpecialtyMapService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/Visit.java
@@ -22,6 +24,7 @@
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/map/PetTypeServiceMap.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/map/PetServiceMap.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/repositories/VetRepository.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/springdatajpa/VisitSDJpaService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/repositories/PetRepository.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/repositories/PetTypeRepository.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/springdatajpa/PetSDJpaService.java

@@ -1,4 +1,6 @@
+com/springframework/sfspetclinic/model/Pet$PetBuilder.class
 com/springframework/sfspetclinic/services/PetService.class
+com/springframework/sfspetclinic/model/Vet$VetBuilder.class
 com/springframework/sfspetclinic/services/springdatajpa/PetSDJpaService.class
 com/springframework/sfspetclinic/model/PetType.class
 com/springframework/sfspetclinic/model/Person.class
@@ -12,8 +14,12 @@ com/springframework/sfspetclinic/services/VetService.class
 com/springframework/sfspetclinic/services/CrudService.class
 com/springframework/sfspetclinic/services/map/SpecialtyMapService.class
 com/springframework/sfspetclinic/model/Specialty.class
+com/springframework/sfspetclinic/model/PetType$PetTypeBuilder.class
 com/springframework/sfspetclinic/services/map/VetServiceMap.class
+com/springframework/sfspetclinic/services/springdatajpa/VisitSDJpaService.class
 com/springframework/sfspetclinic/services/OwnerService.class
+com/springframework/sfspetclinic/model/Visit$VisitBuilder.class
+com/springframework/sfspetclinic/model/Specialty$SpecialtyBuilder.class
 com/springframework/sfspetclinic/services/springdatajpa/OwnerSDJpaService.class
 com/springframework/sfspetclinic/services/map/PetServiceMap.class
 com/springframework/sfspetclinic/repositories/PetRepository.class
@@ -25,7 +31,10 @@ com/springframework/sfspetclinic/model/Vet.class
 com/springframework/sfspetclinic/repositories/VetRepository.class
 com/springframework/sfspetclinic/repositories/OwnerRepository.class
 com/springframework/sfspetclinic/services/springdatajpa/SpecialtySDJpaService.class
+com/springframework/sfspetclinic/services/map/VisitServiceMap.class
 com/springframework/sfspetclinic/services/map/PetTypeServiceMap.class
+com/springframework/sfspetclinic/services/VisitService.class
 com/springframework/sfspetclinic/services/map/AbstractMapService.class
 com/springframework/sfspetclinic/model/BaseEntity.class
 com/springframework/sfspetclinic/services/springdatajpa/VetSDJpaService.class
+com/springframework/sfspetclinic/model/Owner$OwnerBuilder.class
