@@ -1,1 +1,4 @@
 com/springframework/sfspetclinic/SfsPetClinicApplicationTests.class
+com/springframework/sfspetclinic/controller/IndexControllerTest.class
+com/springframework/sfspetclinic/controller/OwnersControllerTest.class
+com/springframework/sfspetclinic/ModelPersonTest.class
