@@ -2,15 +2,15 @@ package com.springframework.sfspetclinic.services.springdatajpa;
 
 import com.springframework.sfspetclinic.model.Pet;
 import com.springframework.sfspetclinic.repositories.PetRepository;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 /**
@@ -23,8 +23,8 @@ public class PetSDJpaServiceTest {
     @Mock
     PetRepository petRepository;
 
-    @Before
-    public void setUp() throws Exception {
+    @BeforeEach
+    public void setUp() {
         MockitoAnnotations.initMocks(this);
 
         petSDJpaService = new PetSDJpaService(petRepository);

@@ -1,11 +1,12 @@
 package com.springframework.sfspetclinic;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-@RunWith(SpringRunner.class)
+//TODO I dont know if we need the @ExtendWith annotation, keeping here just in case
+@ExtendWith(SpringExtension.class)
 @SpringBootTest
 public class SfsPetClinicApplicationTests {
 
