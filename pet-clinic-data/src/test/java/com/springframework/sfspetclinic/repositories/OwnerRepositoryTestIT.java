@@ -14,8 +14,10 @@ import static org.junit.Assert.assertEquals;
  * Integration tests Class for the Owner Repository
  * Obs: That brings up the Spring Context
  */
+/*
 @DataJpaTest
 @RunWith(SpringRunner.class)
+*/
 public class OwnerRepositoryTestIT {
 
     @Autowired
@@ -26,6 +28,7 @@ public class OwnerRepositoryTestIT {
     }
 
     @Test
+    @Ignore
     public void findByLastName() {
 
      Owner owner = ownerRepository.findByLastName("Caldas");
