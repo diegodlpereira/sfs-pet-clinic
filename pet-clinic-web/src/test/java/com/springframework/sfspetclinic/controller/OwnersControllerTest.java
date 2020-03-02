@@ -4,9 +4,11 @@ import com.springframework.sfspetclinic.model.Owner;
 import com.springframework.sfspetclinic.services.OwnerService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.ui.Model;
@@ -21,9 +23,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
+@ExtendWith(MockitoExtension.class)
 public class OwnersControllerTest {
-
-    OwnersController ownersController;
 
     @Mock
     OwnerService ownerService;
@@ -31,19 +32,27 @@ public class OwnersControllerTest {
     @Mock
     Model model;
 
+    @InjectMocks
+    OwnersController ownersController;
+
+    MockMvc mockMvc;
+
     @BeforeEach
     public void setUp() throws Exception {
-        MockitoAnnotations.initMocks(this);
 
         ownersController = new OwnersController(ownerService);
+
+        mockMvc = MockMvcBuilders.standaloneSetup(ownersController).build();
     }
 
     @Test
     public void testMockMVC() throws Exception{
 
-        MockMvc mockMvc = MockMvcBuilders.standaloneSetup(ownersController).build();
-
         mockMvc.perform(get("/owners"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("owners/index"));
+
+        mockMvc.perform(get("/owners/index"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("owners/index"));
 
@@ -70,5 +79,16 @@ public class OwnersControllerTest {
         verify(model, times(1)).addAttribute(eq("owners"), argumentCaptor.capture());
         Set<Owner> setInController = argumentCaptor.getValue();
         assertEquals(2,setInController.size());
+    }
+
+    @Test
+    public void findOwners() throws Exception {
+
+        mockMvc.perform(get("/owners/find"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("notimplemented"));
+
+        verifyZeroInteractions(ownerService);
+
     }
 }
