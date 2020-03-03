@@ -1,2 +1,4 @@
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/test/java/com/springframework/sfspetclinic/services/map/OwnerServiceMapTest.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/test/java/com/springframework/sfspetclinic/services/springdatajpa/OwnerSDJpaServiceTest.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/test/java/com/springframework/sfspetclinic/services/springdatajpa/PetSDJpaServiceTest.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/test/java/com/springframework/sfspetclinic/repositories/OwnerRepositoryTestIT.java
