@@ -1,4 +1,5 @@
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/PetType.java
+/home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/ConfigurationRepository.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/VetService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/services/PetTypeService.java
 /home/diego/dev/sfs-pet-clinic/pet-clinic-data/src/main/java/com/springframework/sfspetclinic/model/BaseEntity.java
